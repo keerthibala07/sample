@@ -1,0 +1,312 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  background: linear-gradient(to right, white 50%,rgb(12, 166, 250) 50%);
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  padding: 10px 20px;
+  background-color: white;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header span {
+  margin-right: auto;
+}
+
+header img {
+  height: 80px;
+  width: auto;
+  margin-right: 20px;
+}
+
+.small-button {
+  background-color: white;
+  color: black;
+  padding: 5px 20px;
+  border: none;
+  align-items: left;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+#event-container p {
+  font-size: 27px;
+  margin-left:245px;
+  
+}
+
+
+
+#card {
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 30px auto;
+  background-color: white;
+}
+
+.form-container {
+  max-width: 100%;
+}
+
+#event-form {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+  color: black;
+}
+.form-container input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #333;
+  background-color: transparent;
+  outline: none;
+
+  font-size: 18px;
+
+}
+
+.form-container textarea,
+.form-container input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #333;
+  background-color: transparent;
+  outline: none;
+}
+
+.form-container input[type="file"] {
+  display: none;
+}
+
+.file-input-label {
+  background-color: rgb(239, 56, 32);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: inline-block;
+  align-items: center;
+}
+
+.file-input-label:hover {
+  background-color: #ff6347;
+}
+
+#eventposter {
+  display: none;
+}
+
+.file-upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file-upload-container label {
+  margin-top: 10px;
+  color: white;
+}
+
+.file-upload-container input,
+.file-upload-container button {
+  margin-top: 10px;
+}
+
+#chosenImageNameContainer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.custom-button {
+  background-color: #33b249;
+  padding: 10px 35px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 0 10px;
+  color: white;
+}
+
+.custom-button2 {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.add-list-container {
+  margin-top: 20px;
+  text-align: center; /* Center the content horizontally */
+}
+
+.add-list-container h2 {
+  font-weight: normal;
+  margin-bottom: 10px;
+  margin-left: 75px;
+}
+
+.eventsContainer {
+  text-align: center; /* Center the content horizontally */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.custom-button {
+  margin-right: 10px;
+  margin-left: 60px; /* Adjust the right margin for the first button */
+}
+
+.custom-button2 {
+  margin-left: 10px; /* Adjust the left margin for the second button */
+}
+
+.dropdown {
+  margin-bottom: 10px;
+}
+
+.next-label {
+  margin-top: 10px;
+}
+
+.submit-button {
+  background-color: white;
+  color: rgb(12, 166, 250);
+  padding: 10px 20px;
+  border: 2px solid rgb(12, 166, 250); /* Add 'solid' as the border style */
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align items to the right */
+  margin-right: -25px;
+}
+
+.event-field-container {
+  margin-bottom: 20px;
+}
+
+/* Add this class for the dropdown styling */
+.dropdown-label {
+  margin-top: 10px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: white;
+  color: #333;
+  box-shadow: 0 -2px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+#foot {
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+
+/* Style for the dropdown options in light mode */
+select {
+  border: 1px solid #ddd; /* Add a border for a clean look */
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+  background-color: #fff;
+  transition: border-color 0.3s ease; /* Add transition for a smooth effect */
+}
+
+/* Style for the individual options in light mode */
+select option {
+  padding: 10px;
+  font-size: 18px;
+  border-bottom: 1px solid #ddd; /* Add a border between options */
+  transition: background-color 0.3s ease; /* Add transition for a smooth effect */
+}
+
+/* Hover effect for options in light mode */
+select option:hover {
+  background-color: #f0f0f0;
+}
+
+
+
+/* Focus and active styles for better user feedback in light mode */
+select option:focus {
+  outline: none;
+  background-color: #f0f0f0;
+}
+
+select option:active {
+  background-color: #e0e0e0;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
+}
+
+/* Example styles for form elements */
+.form-container {
+  max-width: 400px;
+  margin: auto;
+}
